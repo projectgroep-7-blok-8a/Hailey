@@ -1,0 +1,48 @@
+{ "Bitter Gourd": {
+
+		"diabetes": {
+			"gallic acid": 5,
+			"4-hydroxybenzoic acid": 1,
+			"chlorogenic acid": 3,
+			"epicatechin": 1,
+			"ferulic acid": 6,
+			"rutin": 7,
+			"kaempferol": 4,
+			"catechin": 2,
+			"sinapic acid": 4
+		},
+			
+		"tuberculosis": {
+			"chlorogenic acid": 2
+		},
+		
+		"cancer": {
+			"gallic acid": 7,
+			"chlorogenic acid": 2,
+			"caffeic acid": 1,
+			"epicatechin": 1,
+			"p-coumaric acid": 7,
+			"ferulic acid": 6,
+			"benzoic acid": 2,
+			"rutin": 1,
+			"kaempferol": 3,
+			"protocatechuic acid": 1,
+			"catechin": 2,
+			"syringic acid": 1
+		},
+	   
+		"blood glucose": {
+			"gallic acid": 2,
+			"chlorogenic acid": 1,
+			"epicatechin": 1,
+			"ferulic acid": 2,
+			"rutin": 2
+		},
+		"cholesterol": {
+			"gallic acid": 1,
+			"epicatechin": 2,
+			"rutin": 1,
+			"sinapic acid": 2
+		}
+	}
+}
