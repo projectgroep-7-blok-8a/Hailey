@@ -1,0 +1,29 @@
+coronary heart disease
+cardiovascular disease
+flu
+pneumonia
+bronchitis
+tuberculosis
+high blood pressure
+diabetes
+cancer
+alzheimer
+dementia
+cirrhosis
+arthritis
+asthmachron's disease
+epilepsy
+dermatitis
+eczema
+blood glucose
+cholesterol
+COPD
+obesity
+anorexia
+inflammation
+infection
+death
+ulcer
+cough
+gout
+rheumatism

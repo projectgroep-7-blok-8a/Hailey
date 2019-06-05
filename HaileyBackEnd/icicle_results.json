@@ -1,0 +1,97 @@
+{
+    "Bitter Gourd": {
+        "coronary heart disease": {},
+        "cardiovascular disease": {
+            "gallic acid": 1,
+            "chlorogenic acid": 1,
+            "epicatechin": 1
+        },
+        "flu": {},
+        "pneumonia": {},
+        "bronchitis": {
+            "catechin": 1
+        },
+        "tuberculosis": {
+            "chlorogenic acid": 1
+        },
+        "high blood pressure": {},
+        "diabetes": {
+            "gallic acid": 4,
+            "4-hydroxybenzoic acid": 1,
+            "chlorogenic acid": 3,
+            "epicatechin": 1,
+            "ferulic acid": 5,
+            "rutin": 2,
+            "kaempferol": 3,
+            "catechin": 1,
+            "sinapic acid": 2
+        },
+        "cancer": {
+            "gallic acid": 5,
+            "p-coumaric acid": 1,
+            "ferulic acid": 2,
+            "kaempferol": 2,
+            "protocatechuic acid": 1,
+            "catechin": 1,
+            "syringic acid": 1
+        },
+        "alzheimer": {},
+        "dementia": {},
+        "cirrhosis": {},
+        "arthritis": {},
+        "asthmachron's disease": {},
+        "epilepsy": {},
+        "dermatitis": {},
+        "eczema": {},
+        "blood glucose": {
+            "gallic acid": 2,
+            "chlorogenic acid": 1,
+            "epicatechin": 1,
+            "ferulic acid": 2,
+            "rutin": 1
+        },
+        "cholesterol": {
+            "gallic acid": 1,
+            "epicatechin": 1,
+            "rutin": 1
+        },
+        "COPD": {},
+        "obesity": {
+            "gallic acid": 2,
+            "4-hydroxybenzoic acid": 1,
+            "ferulic acid": 1,
+            "rutin": 1,
+            "catechin": 1
+        },
+        "anorexia": {},
+        "inflammation": {
+            "gallic acid": 2,
+            "chlorogenic acid": 1,
+            "ferulic acid": 2,
+            "protocatechuic acid": 1,
+            "catechin": 3,
+            "syringic acid": 1
+        },
+        "infection": {
+            "chlorogenic acid": 1,
+            "kaempferol": 1
+        },
+        "death": {
+            "gallic acid": 1,
+            "chlorogenic acid": 1,
+            "caffeic acid": 1,
+            "kaempferol": 3
+        },
+        "ulcer": {
+            "kaempferol": 1
+        },
+        "cough": {},
+        "gout": {},
+        "rheumatism": {
+            "gallic acid": 1,
+            "ferulic acid": 1,
+            "kaempferol": 1,
+            "catechin": 2
+        }
+    }
+}

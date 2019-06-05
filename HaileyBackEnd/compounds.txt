@@ -1,0 +1,41 @@
+phenylalanine ammonia-lyase
+cinnamate 4-hydroxylase
+4-coumaroyl CoA ligase
+caffeic acid 3-O-methyltransferase
+chalcone synthase
+chalcone isomerase
+flavanone-3-hydroxylase
+flavonol synthase
+dihydroflavonol 4-reductase
+flavonoid 3-O-glucosyltransferase
+gallic acid
+4-hydroxybenzoic acid
+catechin hydrate
+chlorogenic acid
+caffeic acid
+epicatechin
+p-coumaric acid
+ferulic acid
+benzoic acid
+rutin
+trans-cinnamic acid
+kaempferol
+protocatechuic acid
+gentisic acid
+catechin
+vanillic acid
+syringic acid
+trans-ferulic acid
+sinapic acid
+O-courmaric acid
+vitamin B1
+vitamin B2
+vitamin B3
+vitamin B6
+vitamin B9
+vitamin B12
+vitamin C
+vitamin E
+vitamin K
+polypetide-p
+ricin
