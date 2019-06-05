@@ -1,5 +1,5 @@
 # Hailey
-Hailey is a textmiing application.
+Hailey is a textmining application for Bitter Gourd related articles.
 This repository contains all the files that are needed to run the webapplication Hailey.
 The application consists of two parts: the backend and the webapplication (including the visualisation).
 The backend contains the functionality of the textminer.
