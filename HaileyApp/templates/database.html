@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Database</title>
+    <meta charset="utf-8">
+    <meta name="Rick"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../static/icomoon.css">
+    <link rel="stylesheet" href="../static/style.css">
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/about">Project group 7</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="probootstrap-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/application" class="nav-link">Application</a></li>
+              <li class="nav-item"><a href="/database" class="nav-link">Database</a></li>
+              <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+     <section class="probootstrap-cover">
+      <div class="container">
+        <div class="row probootstrap-vh-100 align-items-center text-left">
+          <div class="col-sm">
+            <div class="probootstrap-text pt-5">
+              <h1 class="probootstrap-heading text-white mb-4">Database</h1>
+              <div class="probootstrap-subheading mb-5">
+                <p class="h4 font-weight-normal">
+                When co-occurance has been found in an article the title, date of publication, abstract, points and link to the article is saved in the database.<br />
+                Last updated: {{ last_updated }}<br /> <!-- The date and time the database was last updated given by the flask app -->
+                </p>
+         		<div class='container'>
+                  <form>
+                      <a href=# id=test><button class='btn btn-default'>Update Database</button></a>
+                  </form>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--
+Starts updating the database as a background process
+-->
+<script type=text/javascript>
+        $(function() {
+          $('a#test').bind('click', function() {
+            $.getJSON('/background_process', 
+                function(data) {
+            });
+            return false;
+          });
+        });
+</script>
+   
+  </body>
+</html>

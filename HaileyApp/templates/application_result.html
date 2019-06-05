@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Results</title>
+    <meta charset="utf-8">
+    <meta name="Rick"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../static/icomoon.css">
+    <link rel="stylesheet" href="../static/style.css">
+      <link rel="stylesheet" href="../static/frontstyle.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/about">Project group 7</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="probootstrap-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="/application" class="nav-link">Application</a></li>
+              <li class="nav-item"><a href="/database" class="nav-link">Database</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+     <section class="probootstrap-cover">
+      <div class="container">
+        <div class="row probootstrap-vh-100 align-items-center text-left">
+          <div class="col-sm">
+            <div class="probootstrap-text pt-5">
+              <div class="probootstrap-subheading mb-2">
+                  <h4 class="probootstrap-subheading text-white mb-2">
+
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 100px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.tableover{
+  height: 500px;
+  overflow-y:scroll;
+  overflow-x:auto;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  text-
+}
+tr:hover {background-color: #808080;}
+</style>
+<div class="tableover">
+  <table>
+    <tr>
+        Results for {{disease}} and {{compound}}:
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Score</th>
+      <th>Link</th>
+    </tr>
+<!--
+Generate the list of results using the disease and compound given as variables by the flask app.
+-->
+    {% for x in results[disease][compound] %}
+        <tr>
+                {% for i in x %}
+                    {% if i==x[3] %}
+                    <td>
+                        <a href="{{ i }}" style="color: white">{% print i %}</a>
+                    </td>
+                    {% else %}
+                        <td>
+                        {% print i %}
+                        </td>
+                    {% endif %}
+                {% endfor %}
+            
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+    </h4>
+    </div>
+    </div>
+   </section>
+  </body>
+</html>
